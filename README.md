@@ -1,5 +1,5 @@
-# NeLLCom-Lex: 
-### A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
+# NeLLCom-Lex 
+## A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
 
 ![GitHub](https://img.shields.io/github/license/facebookresearch/EGG)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -9,7 +9,7 @@
 NeLLCom-Lex expands the scope to simulate the evolution of lexical meaning, while [NeLLCom](https://github.com/Yuchen-Lian/NeLLCom) focused on the emergence of universal word order properties.
 NeLLCom-Lex agents communicate about a simplified referential world using pre-defined lexicons acquired during the supervised learning phase. 
 
-The implementation of NeLLCom-Lex is partly based on EGG toolkit.
+The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
 More details can be found in [arxiv](xxx)
 
