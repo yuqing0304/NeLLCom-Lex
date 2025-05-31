@@ -1,4 +1,5 @@
-# NeLLCom-Lex: A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
+# NeLLCom-Lex: 
+### A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
 
 ![GitHub](https://img.shields.io/github/license/facebookresearch/EGG)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -13,12 +14,12 @@ The implementation of NeLLCom-Lex is partly based on EGG toolkit.
 More details can be found in [arxiv](xxx)
 
 
-## Agents Architecture
+## Agent Architecture
 
 Both speaking and listening agents are composed of feedforward neural networks (FNNs), following the common architecture design in referential communication games.
 
 
-## Installing NeLLCom
+## Installing NeLLCom-Lex
 
 1. Cloning NeLLCom-Lex:
    ```
@@ -33,7 +34,7 @@ Both speaking and listening agents are composed of feedforward neural networks (
     bash experiment2c.sh
     ```
 
-## NeLLCom structure
+## NeLLCom-Lex structure
 
 * `data/` contains the full dataset of the color and their names that are used in the paper.
 * `train.py` contain the actual logic implementation.
