@@ -28,6 +28,10 @@ Both speaking and listening agents are composed of feedforward neural networks (
    ```
 4. Then, we can run a game, e.g. the color naming experiments conducted in the paper:
     ```bash
+    bash run.sh
+    ```
+5. For the analysis: 
+    ```bash
     bash experiment1.sh
     bash experiment2a.sh
     bash experiment2b.sh
