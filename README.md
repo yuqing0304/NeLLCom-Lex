@@ -1,5 +1,4 @@
-# NeLLCom-Lex 
-## A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
+# NeLLCom-Lex ## A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use
 
 ![GitHub](https://img.shields.io/github/license/facebookresearch/EGG)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
