@@ -6,8 +6,7 @@
 
 ## Introduction
 
-NeLLCom-Lex expands the scope to simulate the evolution of lexical meaning, while [NeLLCom](https://github.com/Yuchen-Lian/NeLLCom) focused on the emergence of universal word order properties.
-NeLLCom-Lex agents communicate about a simplified referential world using pre-defined lexicons acquired during the supervised learning phase. 
+NeLLCom-Lex extends the original [NeLLCom](https://github.com/Yuchen-Lian/NeLLCom) framework by simulating the evolution of lexical meaning, whereas NeLLCom primarily focused on the emergence of universal word order properties. In NeLLCom-Lex, agents communicate within a simplified referential world using pre-defined lexicons acquired during a supervised learning phase.
 
 The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
@@ -26,7 +25,7 @@ Both speaking and listening agents are composed of feedforward neural networks (
    git clone git@github.com:yuqing0304/NeLLCom-Lex.git
    cd NeLLCom-Lex/EGG/egg/zoo/color_game
    or
-   cd NeLLCom-Lex/EGG/egg/zoo/color_game_zero
+   cd NeLLCom-Lex/EGG/egg/zoo/color_gamezero
    ```
 4. Then, we can run a game, e.g., the color naming experiments conducted in the paper:
     ```bash
@@ -44,7 +43,7 @@ Both speaking and listening agents are composed of feedforward neural networks (
 
 * `data/` contains the full dataset of the colors and their names that are used in the paper.
 * `train.py` contains the actual logic implementation.
-* `models.py`, `datasets.py`, `utils_condition.py`contain the models, datasets, and utility functions.
+* `models.py`, `datasets.py`, and `utils_condition.py` contain the models, datasets, and utility functions.
 
 
 ## Citation
