@@ -11,7 +11,7 @@ NeLLCom-Lex agents communicate about a simplified referential world using pre-de
 
 The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
-More details can be found in [arxiv](xxx)
+More details can be found in [Arxiv](xxx)
 
 
 ## Agent Architecture
@@ -24,9 +24,9 @@ Both speaking and listening agents are composed of feedforward neural networks (
 1. Cloning NeLLCom-Lex:
    ```
    git clone git@github.com:yuqing0304/NeLLCom-Lex.git
-   cd NeLLCom-Lex
+   cd NeLLCom-Lex/EGG/egg/zoo/color_game or cd NeLLCom-Lex/EGG/egg/zoo/color_game_zero
    ```
-4. Then, we can run a game, e.g. the color naming experiments conducted in the paper:
+4. Then, we can run a game, e.g., the color naming experiments conducted in the paper:
     ```bash
     bash run.sh
     ```
@@ -40,13 +40,13 @@ Both speaking and listening agents are composed of feedforward neural networks (
 
 ## NeLLCom-Lex structure
 
-* `data/` contains the full dataset of the color and their names that are used in the paper.
-* `train.py` contain the actual logic implementation.
-* ...
+* `data/` contains the full dataset of the colors and their names that are used in the paper.
+* `train.py` contains the actual logic implementation.
+* `models.py`, `datasets.py`, `utils_condition.py`contain the models, datasets, and utility functions.
 
 
 ## Citation
-If you find NeLLCom-Lex useful in your research, please considering to cite:
+If you find NeLLCom-Lex useful in your research, please consider citing:
 ```
 xxx
 ```
