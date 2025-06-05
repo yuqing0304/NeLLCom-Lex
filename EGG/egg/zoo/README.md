@@ -1,4 +1,4 @@
-#### Overall experiments structure
+### Overall experiments structure
 ##### 3 training pipelines* 
 ###### (a) SL w/ context   + RL w/ context (zoo/color_game, turn on --if_context flag)
 ###### (b) SL w/o context + RL w/ context (zoo/color_gamezero, which means speakers' parameters are zeroed out during SL)
