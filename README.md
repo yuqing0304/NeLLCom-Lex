@@ -48,5 +48,25 @@ Both speaking and listening agents are composed of feedforward neural networks (
 ## Citation
 If you find NeLLCom-Lex useful in your research, please consider citing:
 ```
+@misc{kharitonov:etal:2021,
+  author = "Kharitonov, Eugene  and Dess{\`i}, Roberto and Chaabouni, Rahma  and Bouchacourt, Diane  and Baroni, Marco",
+  title = "{EGG}: a toolkit for research on {E}mergence of lan{G}uage in {G}ames",
+  howpublished = {\url{https://github.com/facebookresearch/EGG}},
+  year = {2021}
+}
+
+@article{lian2023communication,
+    author = {Lian, Yuchen and Bisazza, Arianna and Verhoef, Tessa},
+    title = "{Communication Drives the Emergence of Language Universals in Neural Agents: Evidence from the Word-order/Case-marking Trade-off}",
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {11},
+    pages = {1033-1047},
+    year = {2023},
+    month = {08},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00587},
+    url = {https://doi.org/10.1162/tacl\_a\_00587}
+}
+
 xxx
 ```
