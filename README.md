@@ -49,6 +49,28 @@ Both speaking and listening agents are composed of feedforward neural networks (
 ## Citation
 If you find NeLLCom-Lex useful in your research, please consider citing:
 ```
+xxx
+```
+
+We also encourage you to cite the foundational works that NeLLCom-Lex builds upon:
+```
+@inproceedings{gualdoni-boleda-2024-objects,
+    title = "Why do objects have many names? A study on word informativeness in language use and lexical systems",
+    author = "Gualdoni, Eleonora  and
+      Boleda, Gemma",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1009/",
+    doi = "10.18653/v1/2024.emnlp-main.1009",
+    pages = "18150--18163"
+}
+
 @misc{kharitonov:etal:2021,
   author = "Kharitonov, Eugene  and Dess{\`i}, Roberto and Chaabouni, Rahma  and Bouchacourt, Diane  and Baroni, Marco",
   title = "{EGG}: a toolkit for research on {E}mergence of lan{G}uage in {G}ames",
@@ -68,6 +90,4 @@ If you find NeLLCom-Lex useful in your research, please consider citing:
     doi = {10.1162/tacl_a_00587},
     url = {https://doi.org/10.1162/tacl\_a\_00587}
 }
-
-xxx
 ```
