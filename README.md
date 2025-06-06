@@ -31,7 +31,7 @@ Both speaking and listening agents are composed of feedforward neural networks (
     ```bash
     bash run.sh
     ```
-5. For the analysis of all metrics presented in the paper: 
+5. For the analyses of all metrics presented in the paper: 
     ```bash
     bash experiment1.sh
     bash experiment2a.sh
