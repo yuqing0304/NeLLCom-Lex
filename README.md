@@ -10,7 +10,7 @@ NeLLCom-Lex extends the original [NeLLCom](https://github.com/Yuchen-Lian/NeLLCo
 
 The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
-More details can be found in [Arxiv](xxx)
+More details can be found in [TODOArxiv](xxx)
 
 
 ## Agent Architecture
@@ -29,14 +29,14 @@ Both speaking and listening agents are composed of feedforward neural networks (
    ```
 4. Then, we can run a game, e.g., the color naming experiments conducted in the paper:
     ```bash
-    bash run.sh
+    sbatch run.sh
     ```
 5. For the analyses of all metrics presented in the paper: 
     ```bash
-    bash experiment1.sh
-    bash experiment2a.sh
-    bash experiment2b.sh
-    bash experiment2c.sh
+    sbatch experiment1.sh
+    sbatch experiment2a.sh
+    sbatch experiment2b.sh
+    sbatch experiment2c.sh
     ```
 
 ## NeLLCom-Lex structure
