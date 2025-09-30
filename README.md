@@ -10,7 +10,7 @@ NeLLCom-Lex extends the original [NeLLCom](https://github.com/Yuchen-Lian/NeLLCo
 
 The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
-More details can be found in [TODOArxiv](xxx)
+More details can be found in [Arxiv](https://arxiv.org/abs/2509.22479)
 
 
 ## Agent Architecture
@@ -23,6 +23,9 @@ Both speaking and listening agents are composed of feedforward neural networks (
 1. Cloning NeLLCom-Lex:
    ```
    git clone git@github.com:yuqing0304/NeLLCom-Lex.git
+   cd EGG
+   pip install --editable .
+   
    cd NeLLCom-Lex/EGG/egg/zoo/color_game
    or
    cd NeLLCom-Lex/EGG/egg/zoo/color_gamezero
