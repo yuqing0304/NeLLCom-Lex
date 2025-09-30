@@ -415,7 +415,7 @@ class Trainer:
                         epoch=epoch,  # Pass the current epoch
                     )
 
-                    # change epoch to batch level (author@zhu 2025-4-28)
+                    # change epoch to batch level (2025-4-28)
                   
                     # Convert tensors to scalars
                     # print("===========type of interaction_aux=============")
@@ -542,7 +542,7 @@ class Trainer:
                     optimized_loss, interaction = self.game(*batch)
 
                     for i in range(interaction.sender_input.size(0)):
-                        # add condition to dump the output @zhu 2025-02-25
+                        # add condition to dump the output @change 2025-02-25
                         condition = interaction.aux_input['condition'][i]
                         if condition == 0:
                             c_name = 'far'
