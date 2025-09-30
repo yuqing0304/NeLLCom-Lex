@@ -10,7 +10,7 @@ source activate comm
 
 ############ experiment1 ##################
 # python train.py --data_path ./data/different_base_data/condition_slrl2.csv --n_epochs 30 --n_comm_epochs 30 --if_context
-# python train.py --data_path ./data/different_base_data/condition_slrl2.csv --n_epochs 1 --n_comm_epochs 30 
+# python train.py --data_path ./data/different_base_data/condition_slrl2.csv --n_epochs 30 --n_comm_epochs 30 
 
 
 ############ experiment2 ##################
