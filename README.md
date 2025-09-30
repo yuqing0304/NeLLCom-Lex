@@ -37,9 +37,7 @@ Both speaking and listening agents are composed of feedforward neural networks (
 5. For the analyses of all metrics presented in the paper: 
     ```bash
     sbatch experiment1.sh
-    sbatch experiment2a.sh
-    sbatch experiment2b.sh
-    sbatch experiment2c.sh
+    sbatch experiment2.sh
     ```
 
 ## NeLLCom-Lex structure
