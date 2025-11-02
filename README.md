@@ -10,7 +10,7 @@ NeLLCom-Lex extends the original [NeLLCom](https://github.com/Yuchen-Lian/NeLLCo
 
 The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
-More details can be found in [Arxiv](https://arxiv.org/abs/2509.22479)
+More details can be found in our [paper](https://aclanthology.org/2025.findings-emnlp.580/)
 
 
 ## Agent Architecture
@@ -34,10 +34,10 @@ Both speaking and listening agents are composed of feedforward neural networks (
     ```bash
     sbatch run.sh
     ```
-5. For the analyses of all metrics presented in the paper: 
+5. For the analyses of all metrics presented in the paper (e.g., for experiment 1): 
     ```bash
-    sbatch experiment1.sh
-    sbatch experiment2.sh
+    cd NeLLCom-Lex/EGG/egg/zoo/color_gamezero/analysis_ARR
+    sbatch exp1_arr.sh
     ```
 
 ## NeLLCom-Lex structure
@@ -50,7 +50,26 @@ Both speaking and listening agents are composed of feedforward neural networks (
 ## Citation
 If you find NeLLCom-Lex useful in your research, please consider citing:
 ```
-xxx
+@inproceedings{zhang-etal-2025-nellcom,
+    title = "{N}e{LLC}om-Lex: A Neural-agent Framework to Study the Interplay between Lexical Systems and Language Use",
+    author = {Zhang, Yuqing  and
+      {\"U}rker, Ecesu  and
+      Verhoef, Tessa  and
+      Boleda, Gemma  and
+      Bisazza, Arianna},
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.580/",
+    pages = "10929--10945",
+    ISBN = "979-8-89176-335-7"
+}
 ```
 
 We also encourage you to cite the foundational works that NeLLCom-Lex builds upon:
