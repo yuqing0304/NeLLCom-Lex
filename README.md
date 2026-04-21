@@ -6,9 +6,9 @@
 
 ## Introduction
 
-NeLLCom-Lex extends the [NeLLCom](https://github.com/Yuchen-Lian/NeLLCom) framework by simulating the evolution of lexical meaning, whereas NeLLCom primarily focused on the emergence of universal word order properties. In NeLLCom-Lex, agents communicate within a simplified referential world using pre-defined lexicons acquired during a supervised learning phase.
+NeLLCom-Lex extends the [NeLLCom](https://github.com/Yuchen-Lian/NeLLCom) framework by simulating the evolution of lexical meaning within one generation of learners, whereas NeLLCom primarily focused on the emergence of universal word order properties. In NeLLCom-Lex, agents communicate within a simplified referential world using pre-defined lexicons acquired during a supervised learning phase.
 
-The implementation of NeLLCom-Lex is partly based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
+The implementation of NeLLCom-Lex is based on [EGG](https://github.com/facebookresearch/EGG) toolkit.
 
 More details can be found in our [paper](https://aclanthology.org/2025.findings-emnlp.580/)
 
